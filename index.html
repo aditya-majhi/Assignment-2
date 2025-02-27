@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse Rental</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar">
+        <div class="logo">Ware<span class="green">Space</span></div>
+        <div class="contact">
+            <span>📞 1-670-518-5965</span>
+            <button class="btn-primary">Book a Tour Today</button>
+        </div>
+    </header>
+
+    <!-- Main Content Box -->
+    <section class="main-box">
+        <!-- Content Section -->
+        <div class="content">
+            <div class="stars">
+                ⭐⭐⭐⭐⭐ <span class="rating">4.8/5</span>
+            </div>
+            <h1 class="heading">Small warehouse space for rent in <span class="highlight">Upper West Side, Atlanta, GA</span></h1>
+            
+            <ul class="features">
+                <li>
+                    <div class="icon"><span class="material-symbols-outlined">
+                        </span></div>
+                    <div class="info-div"><b>Flexible spaces & leases</b> <p>Leases as short as 6 months. Upscale or downscale at anytime!</p></div>
+                </li>
+                <li>
+                    <div class="icon"><i class="fa-solid fa-calendar-days"></i></div>
+                    <div class="info-div"><b>All-inclusive warehousing</b><p>Rental includes racking, equipment, loading docks & more</p></div>
+                </li>
+                <li>
+                    <div class="icon"><i class="fa-solid fa-calendar-days"></i></div>
+                    <div class="info-div"><b>Immediate availability</b><p>Move in today!</p></div>
+                </li>
+            </ul>
+            
+            <p class="pricing">200-2,000 sq ft starting as low as <b>$625/month</b></p>
+        </div>
+
+        <!-- Form Section -->
+        <div class="form">
+            <h3>Visit for an in-person tour</h3>
+
+            <div class="profile">
+                <div class="profile-pics">
+                    <div class="profile-pic"></div>
+                    <div class="profile-pic"></div>
+                </div>
+                <p>Cashana or Khadijah will answer your questions and find you a space that meets your needs. No commitment necessary!</p>
+            </div>
+
+            <form id="tourForm" action="https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/20657605/aae63d44-30a1-49c8-91e9-fe399750a7db" method="POST" onsubmit="submitted_now890()">
+                <input type="text" id="firstName" placeholder="First name here" required>
+                <input type="text" id="lastName" placeholder="Last name here" required>
+                <input type="email" id="email" placeholder="Email here" required>
+                <input type="tel" id="phone" placeholder="Phone number (e.g., 123-456-7890)" required>
+                <button type="submit" class="btn-primary">Step 2: Find a time that works →</button>
+            </form>
+
+            <p class="questions">Questions? Call us at <span>1-670-518-5965</span></p>
+            <p class="looking">Looking for a plan? <a href="#">Click here</a>.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
